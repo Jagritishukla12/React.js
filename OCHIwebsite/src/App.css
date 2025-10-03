@@ -1,0 +1,27 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSku-qz5G7E_jSgLRvao_yUkAy_zSYqhiRUrQ&s");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    backface-visibility: hidden;
+
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size:20px;
+  box-shadow: red;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+

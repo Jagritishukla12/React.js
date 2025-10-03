@@ -1,0 +1,6 @@
+.box{
+    width: 100 rem;
+    height:400px;
+    background-color: antiquewhite;
+     box-shadow: 3 , 8, 80 fff;
+}

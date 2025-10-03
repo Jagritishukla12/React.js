@@ -1,0 +1,107 @@
+.translator-container {
+  width: 600px;
+  margin: 40px auto;
+  background: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.row1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.row1 select {
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.reversesvg {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  fill: #333;
+  transition: 0.3s;
+}
+
+.reversesvg:hover {
+  fill: #007bff;
+}
+
+.row2 {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.inputText, .outputText {
+  flex: 1;
+  position: relative;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  min-height: 150px;
+  background: #fff;
+}
+
+.inputText textarea {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.removeinput {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  fill: #888;
+}
+
+.removeinput:hover {
+  fill: red;
+}
+.outputText {
+  background: #eef4ff;
+  font-size: 14px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row3 {
+  text-align: center;
+}
+
+.btn {
+  background: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+.btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
